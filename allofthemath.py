@@ -17,11 +17,11 @@ def plotVectors(vecs, cols, alpha=1):
                    angles='xy', scale_units='xy', scale=1, color=cols[i],
                   alpha=alpha)
 
-        red = 'r'
-        blue = 'b'
-        green = 'g'
+red = 'r'
+blue = 'b'
+green = 'g'
 
-        plotVectors([[1/np.sqrt(3**2), 3], [-1, 1],[2,1]], [red, blue,green])
-        plt.xlim(-5, 5)
-        plt.ylim(-5, 5)
-        plt.show()
+plotVectors([[1/np.sqrt(3**2), 3], [-1, 1],[2,1]], [red, blue,green])
+plt.xlim(-5, 5)
+plt.ylim(-5, 5)
+plt.show()
